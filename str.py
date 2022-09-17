@@ -1,0 +1,11 @@
+s=input('Enter a string please: ')
+s2=input('Another string: ')
+print('capitalize', s.capitalize())
+print('center(30)', s.center(30))
+print('count()', s.count(s2))
+print('endswith', s.endswith(s2))
+print('find', s.find(s2))
+txt='Total Cost {cost:.2f}$'
+print('format',s.format(cost=23.21))
+print('len(s)', len(s))
+print('title', s.title())
